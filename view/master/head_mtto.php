@@ -34,7 +34,7 @@ if (!isset($_SESSION['id_usuario']) || !isset($_SESSION['email'])) {
 </head>
 <body>
     <div class="container-fluid" style="background-color: black; height: 100px;">
-        <img src="../assets/_logo.jpg" class="img-fluid" alt="Responsive image" style="height: 100px;" >
+        <img src="../assets/_logo.jpeg" class="img-fluid" alt="Responsive image" style="height: 100px;" >
     </div>    
 
     <div class="d-flex" id="wrapper">
