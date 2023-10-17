@@ -33,7 +33,7 @@ if (!isset($_SESSION['id_usuario']) || !isset($_SESSION['email'])) {
     <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.2.3/css/buttons.dataTables.min.css" />
 </head>
 <body>
-    <div class="container-fluid" style="background-color: black; height: 100px;">
+    <div class="container-fluid" style="background-color:#f8f9fa; height: 100px;">
         <img src="../assets/_logo.jpeg" class="img-fluid" alt="Responsive image" style="height: 100px;" >
     </div>    
 
@@ -45,7 +45,7 @@ if (!isset($_SESSION['id_usuario']) || !isset($_SESSION['email'])) {
             <!-- Top navigation-->
             <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
                 <div class="container-fluid">
-                    <button class="btn btn-primary" id="sidebarToggle">Mostrar/Ocultar Menu</button>
+                    <!-- <button class="btn btn-primary" id="sidebarToggle">Mostrar/Ocultar Menu</button> -->
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
