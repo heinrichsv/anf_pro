@@ -10,7 +10,7 @@
             <div class="col-2 offset-10">
                 <div class="text-center">
                     <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-success w-100" data-bs-toggle="modal" data-bs-target="#modalUsuario" id="botonCrear">
+                        <button type="button" class="btn btn-outline-secondary w-100" data-bs-toggle="modal" data-bs-target="#modalUsuario" id="botonCrear">
                         <i class="bi bi-plus-circle-fill"></i> Crear
                         </button>
                 </div>
