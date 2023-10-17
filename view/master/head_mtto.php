@@ -16,7 +16,7 @@ if (!isset($_SESSION['id_usuario']) || !isset($_SESSION['email'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title><?php echo (isset($_SESSION["Titulo"])) ? $_SESSION["Titulo"] . " - RRHH Creativa" : "Mantenimiento"; ?></title>
+    <title><?php echo (isset($_SESSION["Titulo"])) ? $_SESSION["Titulo"] . " - PC Service & Solutions, S.A. de C.V" : "Mantenimiento"; ?></title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
     <!-- Core theme CSS (includes Bootstrap)-->
