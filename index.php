@@ -14,8 +14,8 @@
 
      <form action="login.php" method="post">
 
-        <img src="./view/assets/header.jpg" style="height: 40px;" />
-        <h3 style="text-align: center;">Sistema de Recursos Humanos de Creativa Consultores, S.A.</h3>
+        <img src="./view/assets/_logo.jpeg" style="height: 40px;" />
+        <h3 style="text-align: center;">Sistema de Gestión de Planilla de PC Service & Solutions, S.A. de C.V</h3>
 
         <?php if (isset($_GET['error'])) { ?>
 
