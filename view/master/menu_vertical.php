@@ -1,5 +1,5 @@
 <div class="border-end bg-white" id="sidebar-wrapper">
-    <div class="sidebar-heading border-bottom bg-light">RRHH Creativa</div>
+    <div class="sidebar-heading border-bottom bg-light">PC Service & Solutions, S.A. de C.V</div>
     <div class="list-group list-group-flush">
     <?php
         /*if (isset($_SESSION) && isset($_SESSION['id_empleado'])) {
