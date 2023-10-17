@@ -23,7 +23,7 @@ if (!isset($_SESSION['id_usuario']) || !isset($_SESSION['email'])) {
         <link href="../css/styles.css" rel="stylesheet" />
     </head>
     <body>
-        <img src="../assets/header.jpg" class="img-fluid" alt="Responsive image">
+        <img src="../assets/_logo.jpg" class="img-fluid" alt="Responsive image">
         <div class="d-flex" id="wrapper">
             <!-- Sidebar-->
             <?php include("menu_vertical.php") ?>
