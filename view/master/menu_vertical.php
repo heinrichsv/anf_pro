@@ -15,7 +15,7 @@
             echo '<a class="list-group-item list-group-item-action list-group-item-light p-3" href="../departamentos/index.php">Departamentos</a>';
         }
         if (isset($_SESSION) && ($_SESSION['id_rol'] == '1' || $_SESSION['id_rol'] == '3' || $_SESSION['id_rol'] == '4')) {
-            echo '<a class="list-group-item list-group-item-action list-group-item-light p-3" href="../empleados/index.php"><i class="fa-solid fa-user">Empleados</i></a>';
+            echo '<a class="list-group-item list-group-item-action list-group-item-light p-3" href="../empleados/index.php"><i class="fa-solid fa-user"></i> Empleados</a>';
         }
         if (isset($_SESSION) && ($_SESSION['id_rol'] == '1' || $_SESSION['id_rol'] == '4')) {
             echo '<a class="list-group-item list-group-item-action list-group-item-light p-3" href="../usuarios/index.php">Usuarios</a>
