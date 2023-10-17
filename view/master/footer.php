@@ -9,7 +9,7 @@
                     <a
                         class="btn text-white btn-floating m-1"
                         style="background-color: #3b5998;"
-                        href="https://www.facebook.com/CreativaConsultoresSA"
+                        href="https://www.facebook.com/"
                         role="button"
                         ><i class="fab fa-facebook-f"></i
                     ></a>
@@ -36,7 +36,7 @@
                     <a
                         class="btn text-white btn-floating m-1"
                         style="background-color: #ac2bac;"
-                        href="https://www.instagram.com/creativaconsultoressa/"
+                        href="https://www.instagram.com/"
                         role="button"
                         ><i class="fab fa-instagram"></i
                     ></a>
@@ -45,7 +45,7 @@
                     <a
                         class="btn text-white btn-floating m-1"
                         style="background-color: #0082ca;"
-                        href="https://www.linkedin.com/company/creativa-consultores-s-a-/mycompany/"
+                        href="https://www.linkedin.com/company/"
                         role="button"
                         ><i class="fab fa-linkedin-in"></i
                     ></a>
@@ -53,7 +53,7 @@
                     <a
                         class="btn text-white btn-floating m-1"
                         style="background-color: #333333;"
-                        href="https://github.com/gd19016/rrhh.creativa"
+                        href="https://github.com/"
                         role="button"
                         ><i class="fab fa-github"></i
                     ></a>
@@ -65,7 +65,7 @@
                 <!-- Copyright -->
                 <div class="text-center p-3" style="background-color: black;">
                     © 2022 Copyright:
-                    <a class="text-white" href="https://creativaconsultores.com/">creativaconsultores.com</a>
+                    <a class="text-white" href="https://servicesolutions.com/">https://servicesolutions.com</a>
                 </div>
             <!-- Copyright -->
             </footer>
