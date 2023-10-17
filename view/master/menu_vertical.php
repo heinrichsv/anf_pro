@@ -6,7 +6,7 @@
             echo '<a class="list-group-item list-group-item-action list-group-item-light p-3" href="../resumen/index.php">Resumen</a>';
         }*/
         if (isset($_SESSION) && ($_SESSION['id_rol'] == '1' || $_SESSION['id_rol'] == '2' || $_SESSION['id_rol'] == '3')) {
-            echo '<a class="list-group-item list-group-item-action list-group-item-light p-3" href="../planilla/index.php"><i class="fa-light fa-file-spreadsheet"></i>&nbsp;Planillas</a>';
+            echo '<a class="list-group-item list-group-item-action list-group-item-light p-3" href="../planilla/index.php"><i class="fa-solid fa-table"></i>&nbsp;Planillas</a>';
         }
         if (isset($_SESSION) && ($_SESSION['id_rol'] == '1' || $_SESSION['id_rol'] == '2')) {
 		    echo '<a class="list-group-item list-group-item-action list-group-item-light p-3" href="../costeo/index.php">Costeo de planilla</a>';
