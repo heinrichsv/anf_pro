@@ -12,13 +12,9 @@
                 <!-- Grid container -->
 
                 <!-- Copyright -->
-                <nav class="navbar navbar-light bg-light">
-                    <span class="navbar-text">
-                        <a class="text-black" href="https://servicesolutions.com/">https://servicesolutions.com</a> © Copyright -  2023
-                    </span>
-                </nav>
+                <div class="text-center p-3" style="background-color: black;">
                 
-                    
+                    <a class="text-white" href="https://servicesolutions.com/">https://servicesolutions.com</a> © Copyright -  2023
                 </div>
             <!-- Copyright -->
             </footer>
