@@ -212,17 +212,17 @@ require_once("../master/head_mtto.php")
                                 <div class="row">
                                     <div class="col">
                                         <label for="salario">Ingrese el salario mensual($):</label>
-                                        <input type="number" step="any" min="0.01" max="999999999999999.99" maxlength="18" name="salario" id="salario" class="form-control" <?php echo (isset($_SESSION) && $_SESSION['id_rol'] != '3') ? 'disabled' : ''; ?> required>
+                                        <input type="number" step="any" min="0.01" max="999999999999999.99" maxlength="18" name="salario" id="salario" class="form-control" required>
                                     </div>
                                     <div class="col">
                                         <label for="estado">Estado:&nbsp;</label>
                                         <br />
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="estado" id="estadoA" value="A" <?php echo (isset($_SESSION) && $_SESSION['id_rol'] != '3') ? 'disabled' : ''; ?> checked>
+                                            <input class="form-check-input" type="radio" name="estado" id="estadoA" value="A" checked>
                                             <label class="form-check-label" for="estado1">Activo</label>
                                         </div>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="estado" id="estadoI" value="I" <?php echo (isset($_SESSION) && $_SESSION['id_rol'] != '3') ? 'disabled' : ''; ?>>
+                                            <input class="form-check-input" type="radio" name="estado" id="estadoI" value="I" >
                                             <label class="form-check-label" for="estado2">Inactivo</label>
                                         </div>
                                     </div>
