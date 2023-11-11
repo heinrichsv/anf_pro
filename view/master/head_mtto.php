@@ -31,12 +31,10 @@ if (!isset($_SESSION['id_usuario']) || !isset($_SESSION['email'])) {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css" />
     <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.2.3/css/buttons.dataTables.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container-fluid" style="background-color:#f8f9fa; height: 100px;">
-        <img src="../assets/_logo.jpeg" class="img-fluid" alt="Responsive image" style="height: 100px;" >
-    </div>    
-
     <div class="d-flex" id="wrapper">
         <!-- Sidebar-->
         <?php include("menu_vertical.php") ?>
@@ -51,8 +49,8 @@ if (!isset($_SESSION['id_usuario']) || !isset($_SESSION['email'])) {
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                             <!--<li class="nav-item active"><a class="nav-link" href="../home/index.php">Inicio</a></li>-->
-                            <li class="nav-item active"><a class="nav-link" href="#!">¡Bienvenido, <?php echo (isset($_SESSION) && isset($_SESSION['nombres'])) ? $_SESSION['nombres'] : 'usuario'; ?>!</a></li>
-                            <li class="nav-item"><a class="nav-link" href="../../logout.php">Cerrar Sesión</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="#!">Usuario: <?php echo (isset($_SESSION) && isset($_SESSION['nombres'])) ? $_SESSION['nombres'] : 'usuario'; ?>&nbsp;</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../../logout.php">|&nbsp;&nbsp;&nbsp;Logout</a></li>
                         </ul>
                     </div>
                 </div>

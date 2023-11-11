@@ -2,6 +2,7 @@
 
     include("../../model/conexion.php");
     include("funciones.php");
+ 
 
     if(session_id() == '' || !isset($_SESSION) || session_status() === PHP_SESSION_NONE) {
         session_start();
@@ -149,7 +150,6 @@
 
         $datos[] = $sub_array;
     }
-
     $salida = array(
         "draw"               => intval($_POST["draw"]),
         "recordsTotal"       => $filtered_rows,
@@ -158,3 +158,4 @@
     );
 
     echo json_encode($salida);
+    

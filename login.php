@@ -44,7 +44,7 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
                         header("Location: view/usuarios/index.php");
                         exit();
                     } else {
-                        header("Location: view/planilla/index.php");
+                        header("Location: view/home/index.php");
                         exit();
                     }
                 }else{

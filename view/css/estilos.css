@@ -12,3 +12,24 @@ body {
   border-radius: 5px;
   margin-top: 25px;
 }
+
+/* Cambiar el color del botón "btn-primary" a verde */
+.btn.btn-primary {
+  background-color: #00c3ff;
+  border-color: #00c3ff;
+}
+
+/* Cambiar el color del botón "btn-danger" a rojo */
+.btn.btn-danger {
+  background-color: #ff9d00;
+  border-color: #ff9d00;
+  color: #ffffff;
+  /* Cambiar el color del texto a blanco para que sea legible en el fondo rojo */
+}
+
+.btn.btn-outline-secondary {
+  background-color: #0a7725;
+  border-color: #0a7725;
+  color: #ffffff;
+  /* Cambiar el color del texto a blanco para que sea legible en el fondo rojo */
+}

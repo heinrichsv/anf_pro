@@ -14,7 +14,7 @@ body {
 
 }
 
-*{
+* {
 
     /*font-family: cursive;*/
 
@@ -88,7 +88,7 @@ button {
 
 }
 
-button:hover{
+button:hover {
 
     opacity: .10;
 
@@ -96,17 +96,17 @@ button:hover{
 
 .error {
 
-   background: #F2DEDE;
+    background: rgb(245, 149, 149);
 
-   color: #0c0101;
+    color: #0c0101;
 
-   padding: 10px;
+    padding: 10px;
 
-   width: 95%;
+    width: 95%;
 
-   border-radius: 5px;
+    border-radius: 5px;
 
-   margin: 20px auto;
+    margin: 20px auto;
 
 }
 
@@ -138,8 +138,13 @@ a {
 
 }
 
-a:hover{
+a:hover {
 
     opacity: .7;
 
 }
+
+.btn .btn-primary {
+    background-color: #00c3ff;
+    border-color: #00c3ff;
+  }
