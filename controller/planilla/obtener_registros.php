@@ -30,7 +30,7 @@
     if (isset($_POST["order"])) {
         $query .= 'ORDER BY ' . $_POST['order']['0']['column'] .' '.$_POST["order"][0]['dir'] . ' ';        
     }else{
-        $query .= 'ORDER BY nombres ASC ';
+        $query .= 'ORDER BY fecha_ingreso ASC ';
     }
 
     if($_POST["length"] != -1){
