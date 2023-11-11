@@ -21,10 +21,10 @@
         if (isset($_SESSION) && ($_SESSION['id_rol'] == '1' || $_SESSION['id_rol'] == '2' || $_SESSION['id_rol'] == '3')) {
             echo '<a class="list-group-item list-group-item-action list-group-item-light p-3" href="../planilla/index.php"><i class="fa-solid fa-table"></i>&nbsp;Planillas</a>';
         }
-        /*
+        
         if (isset($_SESSION) && ($_SESSION['id_rol'] == '1' || $_SESSION['id_rol'] == '2')) {
-		    echo '<a class="list-group-item list-group-item-action list-group-item-light p-3" href="../costeo/index.php">Costeo de planilla</a>';
-        }*/
+            echo '<a class="list-group-item list-group-item-action list-group-item-light p-3" href="../costeo/index.php"><i class="fa-solid fa-dollar-sign"></i>&nbsp;Costeo de planilla</a>';
+        }
 
         if (isset($_SESSION) && ($_SESSION['id_rol'] == '1' || $_SESSION['id_rol'] == '4')) {
             echo '<a class="list-group-item list-group-item-action list-group-item-light p-3" href="../usuarios/index.php"><i class="fa-solid fa-user"></i>&nbsp;Usuarios</a>
