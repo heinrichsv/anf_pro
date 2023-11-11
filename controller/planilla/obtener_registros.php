@@ -18,7 +18,7 @@
                 DATEDIFF(STR_TO_DATE('2022,12,12', '%Y,%m,%d'), STR_TO_DATE('2021,12,12', '%Y,%m,%d')) AS dias_desde_calc_ant
                 FROM empleados emp where estado = 'A' ";
     
-    if (($_SESSION['id_rol'] == '1' || $_SESSION['id_rol'] == '2') && isset($_SESSION['id_empleado'])) {
+    if (($_SESSION['id_rol'] == '4' || $_SESSION['id_rol'] == '5') && isset($_SESSION['id_empleado'])) {
         $query .= 'AND id_empleado = ' . $_SESSION['id_empleado'] . ' ';
     }
     
